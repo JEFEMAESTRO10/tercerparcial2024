@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Documentación de Proyecto</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Clase del 01/10/2024</h1>
+  <p>Creación de página web usando Git</p>
+  <img src="git.JPG" alt="Imagen de Git">
+  
+  <!-- Sección de Tabla de PBI -->
+  <h2>Índice de PBIs</h2>
+  <table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Tipo</th>
+        <th>Descripción</th>
+        <th>Prioridad</th>
+        <th>Estimación</th>
+        <th>Criterios de Aceptación</th>
+        <th>Estado</th>
+        <th>Dependencias</th>
+        <th>Origen</th>
+        <th>Responsable</th>
+    </tr>
+    <tr>
+        <td>PBI-014</td>
+        <td>Requerimiento Funcional</td>
+        <td>Como usuario final, el sistema debe permitir generar un archivo con portabilidad en distintos tipos de lectores de texto para guardarlo en un almacenamiento local</td>
+        <td>2 Media</td>
+        <td>2-3 semanas</td>
+        <td>
+            <ul>
+                <li>El sistema debe permitir generar archivos de extensión principal .pdf</li>
+                <li>El sistema debe permitir seleccionar entre al menos 2 extensiones de lectores de texto como mínimo</li>
+                <li>El documento generado debe contener información importante y en lenguaje común</li>
+            </ul>
+        </td>
+        <td>Por hacer</td>
+        <td>PBI-006</td>
+        <td>Product Owner</td>
+        <td>Yojan Papamija, Alexis Sandoval, Angel Vivas, Pablo Prado</td>
+    </tr>
+  </table>
+
+  <!-- Formulario de Inteligencias Múltiples -->
+  <h2>INTELIGENCIAS MULTIPLES</h2>
+  <p>Responda las siguientes preguntas de selección múltiple:</p>
+
+  <form action="/action_page.php">
+    <label for="email">Seleccione Crecimiento:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="pwd">Seleccione Aporte:</label>
+    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+
+    <input type="submit">
+  </form>
+
+  <h3>Perfil de Intereses</h3>
+
+  <!-- Sección de Preguntas de Selección Múltiple -->
+  <h2>PBI-006</h2>
+  <h3>Responda las siguientes preguntas de selección múltiple.</h3>
+  <p>Seleccione para cada uno si es verdadero o falso de acuerdo con su personalidad:</p>
+
+  <p>1. Prefiero hacer un mapa que explicarle a alguien cómo tiene que llegar:</p>
+  <input type="radio" name="answer" value="true"> Verdadero<br>
+  <input type="radio" name="answer" value="false"> Falso<br>
+
+  <button onclick="location.href='previous.html'">Anterior</button>
+  <button onclick="location.href='next.html'">Siguiente</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
